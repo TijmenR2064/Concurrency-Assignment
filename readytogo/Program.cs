@@ -4,6 +4,7 @@ using System.Data;
 namespace readytogo;
 class Program
 {
+    //verwijder dit test
     // you MUST fill in your anme(s) and student number(s) here
     private static readonly string studentname1 = "Tijmen Rietveld";
     private static readonly string studentnum1 = "0993398";
