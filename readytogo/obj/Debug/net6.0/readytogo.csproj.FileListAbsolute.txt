@@ -1,0 +1,14 @@
+C:\Users\Gebruiker\Documents\School projects\Cocurrency\readytogo\readytogo\bin\Debug\net6.0\readytogo.exe
+C:\Users\Gebruiker\Documents\School projects\Cocurrency\readytogo\readytogo\bin\Debug\net6.0\readytogo.deps.json
+C:\Users\Gebruiker\Documents\School projects\Cocurrency\readytogo\readytogo\bin\Debug\net6.0\readytogo.runtimeconfig.json
+C:\Users\Gebruiker\Documents\School projects\Cocurrency\readytogo\readytogo\bin\Debug\net6.0\readytogo.dll
+C:\Users\Gebruiker\Documents\School projects\Cocurrency\readytogo\readytogo\bin\Debug\net6.0\readytogo.pdb
+C:\Users\Gebruiker\Documents\School projects\Cocurrency\readytogo\readytogo\obj\Debug\net6.0\readytogo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gebruiker\Documents\School projects\Cocurrency\readytogo\readytogo\obj\Debug\net6.0\readytogo.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\Documents\School projects\Cocurrency\readytogo\readytogo\obj\Debug\net6.0\readytogo.AssemblyInfo.cs
+C:\Users\Gebruiker\Documents\School projects\Cocurrency\readytogo\readytogo\obj\Debug\net6.0\readytogo.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Documents\School projects\Cocurrency\readytogo\readytogo\obj\Debug\net6.0\readytogo.dll
+C:\Users\Gebruiker\Documents\School projects\Cocurrency\readytogo\readytogo\obj\Debug\net6.0\refint\readytogo.dll
+C:\Users\Gebruiker\Documents\School projects\Cocurrency\readytogo\readytogo\obj\Debug\net6.0\readytogo.pdb
+C:\Users\Gebruiker\Documents\School projects\Cocurrency\readytogo\readytogo\obj\Debug\net6.0\readytogo.genruntimeconfig.cache
+C:\Users\Gebruiker\Documents\School projects\Cocurrency\readytogo\readytogo\obj\Debug\net6.0\ref\readytogo.dll

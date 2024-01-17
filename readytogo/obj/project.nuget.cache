@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "EFcCFp0vlm/nuKDQDQAedDaqgCCt4MUD+wbcdcQtFAX1akd1WHFJN/XKTj1XFV2iLvX+MbuaaVCOBklm+LI8GA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gebruiker\\Documents\\School projects\\Cocurrency\\readytogo\\readytogo\\readytogo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.22\\microsoft.netcore.app.host.win-x64.6.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}
