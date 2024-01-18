@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Gebruiker\\.nuget\\packages\\": {}
+    "C:\\Users\\tijme\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Gebruiker\\Documents\\School projects\\Cocurrency\\readytogo\\readytogo\\readytogo.csproj",
+      "projectUniqueName": "C:\\Users\\tijme\\OneDrive\\Documenten\\School\\Jaar 4\\Concurrency Retake\\Concurrency-Assignment\\readytogo\\readytogo.csproj",
       "projectName": "readytogo",
-      "projectPath": "c:\\Users\\Gebruiker\\Documents\\School projects\\Cocurrency\\readytogo\\readytogo\\readytogo.csproj",
-      "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Gebruiker\\Documents\\School projects\\Cocurrency\\readytogo\\readytogo\\obj\\",
+      "projectPath": "C:\\Users\\tijme\\OneDrive\\Documenten\\School\\Jaar 4\\Concurrency Retake\\Concurrency-Assignment\\readytogo\\readytogo.csproj",
+      "packagesPath": "C:\\Users\\tijme\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tijme\\OneDrive\\Documenten\\School\\Jaar 4\\Concurrency Retake\\Concurrency-Assignment\\readytogo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\tijme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -57,19 +59,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.22, 6.0.22]"
+            "version": "[6.0.16, 6.0.16]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.22, 6.0.22]"
+            "version": "[6.0.16, 6.0.16]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.22, 6.0.22]"
+            "version": "[6.0.16, 6.0.16]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.22, 6.0.22]"
+            "version": "[6.0.16, 6.0.16]"
           }
         ],
         "frameworkReferences": {
@@ -77,7 +79,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

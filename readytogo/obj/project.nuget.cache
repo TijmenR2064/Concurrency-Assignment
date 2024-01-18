@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "EFcCFp0vlm/nuKDQDQAedDaqgCCt4MUD+wbcdcQtFAX1akd1WHFJN/XKTj1XFV2iLvX+MbuaaVCOBklm+LI8GA==",
+  "dgSpecHash": "C7DmjVlFf93qTbdC+yR8DdlvNZlGI3cSfivV7T4Dekg4WIr+aEM2W/u3xhbsznWvUAfGine7OBnj7q6t+prLhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gebruiker\\Documents\\School projects\\Cocurrency\\readytogo\\readytogo\\readytogo.csproj",
+  "projectFilePath": "C:\\Users\\tijme\\OneDrive\\Documenten\\School\\Jaar 4\\Concurrency Retake\\Concurrency-Assignment\\readytogo\\readytogo.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
-    "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
-    "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512",
-    "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.22\\microsoft.netcore.app.host.win-x64.6.0.22.nupkg.sha512"
+    "C:\\Users\\tijme\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tijme\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tijme\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tijme\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }

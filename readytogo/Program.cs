@@ -1,6 +1,7 @@
 ﻿
 using System.Data;
 
+
 namespace readytogo;
 class Program
 {
@@ -14,6 +15,9 @@ class Program
     // variables for concurrency?
     // add the variables you need for concurrency here in case of need
 
+     public static readonly Semaphore _semaphore = new(
+      initialCount: 0,
+      maximumCount: 1);
 
     // do not add more variables after this comment.
     // feel free to change the values of the variables below to test your code
@@ -59,7 +63,10 @@ class Program
     {   // feel free to change the code in this method if needed
         for (int i = 0; i < cooks.Length; i++)
         {
-            cooks[i].DoWork();
+
+            Thread myThread = new Thread(new ThreadStart(cooks[i].DoWork));
+            myThread.Start();
+            
         }
     }
 
@@ -67,7 +74,9 @@ class Program
     {   // feel free to change the code in this method if needed
         for (int i = 0; i < clients.Length; i++)
         {
-            clients[i].DoWork();
+             Thread myThread = new Thread(new ThreadStart(clients[i].DoWork));
+            myThread.Start();
+            
         }
     }
 

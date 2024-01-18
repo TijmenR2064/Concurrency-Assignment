@@ -1,0 +1,15 @@
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\bin\Debug\net7.0\readytogo.exe
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\bin\Debug\net7.0\readytogo.deps.json
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\bin\Debug\net7.0\readytogo.runtimeconfig.json
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\bin\Debug\net7.0\readytogo.dll
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\bin\Debug\net7.0\readytogo.pdb
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\obj\Debug\net7.0\readytogo.csproj.AssemblyReference.cache
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\obj\Debug\net7.0\readytogo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\obj\Debug\net7.0\readytogo.AssemblyInfoInputs.cache
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\obj\Debug\net7.0\readytogo.AssemblyInfo.cs
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\obj\Debug\net7.0\readytogo.csproj.CoreCompileInputs.cache
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\obj\Debug\net7.0\readytogo.dll
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\obj\Debug\net7.0\refint\readytogo.dll
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\obj\Debug\net7.0\readytogo.pdb
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\obj\Debug\net7.0\readytogo.genruntimeconfig.cache
+C:\Users\tijme\OneDrive\Documenten\School\Jaar 4\Concurrency Retake\Concurrency-Assignment\readytogo\obj\Debug\net7.0\ref\readytogo.dll
