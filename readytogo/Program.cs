@@ -15,9 +15,17 @@ class Program
     // variables for concurrency?
     // add the variables you need for concurrency here in case of need
 
-     public static readonly Semaphore _semaphore = new(
+     public static readonly Semaphore _semaphoreCook = new(
       initialCount: 0,
       maximumCount: 1);
+
+      public static readonly Semaphore _semaphoreClient = new(
+      initialCount: 0,
+      maximumCount: 1);
+
+     
+    
+      
 
     // do not add more variables after this comment.
     // feel free to change the values of the variables below to test your code
@@ -65,8 +73,8 @@ class Program
         {
 
             Thread myThread = new Thread(new ThreadStart(cooks[i].DoWork));
+            myThread.IsBackground=true;
             myThread.Start();
-            
         }
     }
 
@@ -75,7 +83,10 @@ class Program
         for (int i = 0; i < clients.Length; i++)
         {
              Thread myThread = new Thread(new ThreadStart(clients[i].DoWork));
+             myThread.IsBackground=true;
             myThread.Start();
+            myThread.Join();
+            
             
         }
     }
