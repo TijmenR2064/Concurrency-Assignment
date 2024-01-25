@@ -29,8 +29,8 @@ class Program
 
     // do not add more variables after this comment.
     // feel free to change the values of the variables below to test your code
-    private static readonly int total_clients = 10; // this needs to be the same as the number of cooks
-    private static int total_coocks = 10; // this needs to be the same as the number of clients
+    private static readonly int total_clients = 1000; // this needs to be the same as the number of cooks
+    private static int total_coocks = 1000; // this needs to be the same as the number of clients
 
 
     public static int GetTotalCooks()

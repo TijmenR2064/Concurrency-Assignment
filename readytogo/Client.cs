@@ -39,9 +39,11 @@ internal class Client
 
         Console.WriteLine("C: Order placed by {0}", id); // do not remove this line
 
+        Program._semaphoreCook.Release();
+
         Program._semaphoreClient.WaitOne();
 
-        Program._semaphoreCook.Release();
+        
 
         //wait for the order to be ready (the cook is slow, so go take a nap)
         Thread.Sleep(new Random().Next(100, 500));  // do not remove this line
