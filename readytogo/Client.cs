@@ -4,7 +4,7 @@ namespace readytogo;
 internal class Client
 {
     // do you need to add variables here?
-    // add the variab    les you need for concurrency here
+    // add the variables you need for concurrency here
 
   
 
@@ -28,10 +28,11 @@ internal class Client
 
         //place the order
         
-        lock(Program.orders)
-        {
-            Program.orders.AddFirst(o);  // do not remove this line
-        }
+        Program._semaphorePOrders.WaitOne();
+        
+        Program.orders.AddFirst(o);  // do not remove this line
+        
+        Program._semaphoreCOrders.Release();
         
         
        
@@ -39,9 +40,9 @@ internal class Client
 
         Console.WriteLine("C: Order placed by {0}", id); // do not remove this line
 
-        Program._semaphoreCook.Release();
+        //Program._semaphoreCook.Release();
 
-        Program._semaphoreClient.WaitOne();
+        //Program._semaphoreClient.WaitOne();
 
         
 
@@ -55,17 +56,15 @@ internal class Client
         // each client will go to the pick the oder when ready in the pickup location
         // each client will pickup the order and terminate
 
-        lock(Program.pickups)
-        {
-            if(Program.pickups.Count > 0)
-            {
-                //Program._semaphoreClient.WaitOne();
-                Program.pickups.RemoveFirst(); // do not remove this line
-                //order pickedup
-                Console.WriteLine("C: Order pickedup by {0}", id); // do not remove this line
-            }
+        Program._semaphoreCPickup.WaitOne();
             
-        }
+        //Program._semaphoreClient.WaitOne();
+        Program.pickups.RemoveFirst(); // do not remove this line
+        //order pickedup
+        Console.WriteLine("C: Order pickedup by {0}", id); // do not remove this line
+            
+            
+        Program._semaphorePPickup.Release();
 
         
 

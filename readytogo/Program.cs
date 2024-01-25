@@ -9,34 +9,39 @@ class Program
     // you MUST fill in your anme(s) and student number(s) here
     private static readonly string studentname1 = "Tijmen Rietveld";
     private static readonly string studentnum1 = "0993398";
-    private static readonly string studentname2 = "";
-    private static readonly string studentnum2 = "";
+    private static readonly string studentname2 = "Ilias El bouchtaoui";
+    private static readonly string studentnum2 = "0996736";
 
     // variables for concurrency?
     // add the variables you need for concurrency here in case of need
 
-     public static Semaphore _semaphoreCook = new(
+    public static Semaphore _semaphoreCPickup = new(
       initialCount: 0,
       maximumCount: 1);
 
-      public static Semaphore _semaphoreClient = new(
-      initialCount: 0,
+    public static Semaphore _semaphorePPickup = new(
+      initialCount: 1,
       maximumCount: 1);
 
-     
+    public static Semaphore _semaphoreCOrders = new(
+        initialCount: 0,
+        maximumCount: 1);
+
+    public static Semaphore _semaphorePOrders = new(
+      initialCount: 1,
+      maximumCount: 1);
+
+
     
       
 
     // do not add more variables after this comment.
     // feel free to change the values of the variables below to test your code
-    private static readonly int total_clients = 1000; // this needs to be the same as the number of cooks
-    private static int total_coocks = 1000; // this needs to be the same as the number of clients
+    private static readonly int total_clients = 3000; // this needs to be the same as the number of cooks
+    private static int total_coocks = 3000; // this needs to be the same as the number of clients
 
 
-    public static int GetTotalCooks()
-    {
-        return total_coocks;
-    }
+   
     // do not change the code below
     public static LinkedList<Order> orders = new();
     public static LinkedList<Order> pickups = new();
