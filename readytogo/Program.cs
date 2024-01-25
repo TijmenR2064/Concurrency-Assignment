@@ -15,11 +15,11 @@ class Program
     // variables for concurrency?
     // add the variables you need for concurrency here in case of need
 
-     public static readonly Semaphore _semaphoreCook = new(
+     public static Semaphore _semaphoreCook = new(
       initialCount: 0,
       maximumCount: 1);
 
-      public static readonly Semaphore _semaphoreClient = new(
+      public static Semaphore _semaphoreClient = new(
       initialCount: 0,
       maximumCount: 1);
 
@@ -29,9 +29,14 @@ class Program
 
     // do not add more variables after this comment.
     // feel free to change the values of the variables below to test your code
-    private static readonly int total_clients = 500; // this needs to be the same as the number of cooks
-    private static int total_coocks = 500; // this needs to be the same as the number of clients
+    private static readonly int total_clients = 10; // this needs to be the same as the number of cooks
+    private static int total_coocks = 10; // this needs to be the same as the number of clients
 
+
+    public static int GetTotalCooks()
+    {
+        return total_coocks;
+    }
     // do not change the code below
     public static LinkedList<Order> orders = new();
     public static LinkedList<Order> pickups = new();
@@ -80,14 +85,20 @@ class Program
 
     private static void StartClients() // this method is not working properly
     {   // feel free to change the code in this method if needed
+        Thread[] clientThreads = new Thread[clients.Length];
         for (int i = 0; i < clients.Length; i++)
         {
-             Thread myThread = new Thread(new ThreadStart(clients[i].DoWork));
-             myThread.IsBackground=true;
-            myThread.Start();
-            myThread.Join();
-            
-            
+            clientThreads[i] = new Thread(new ThreadStart(clients[i].DoWork));
+            clientThreads[i].IsBackground = true;
+            clientThreads[i].Start();
+            //myThread.Join();
+             
+        }
+
+        // Wait for all client threads to finish
+        foreach (var thread in clientThreads)
+        {
+            thread.Join();
         }
     }
 
